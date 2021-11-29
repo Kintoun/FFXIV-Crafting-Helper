@@ -1,0 +1,99 @@
+{
+	"Lemonade": {
+		"macros": [
+			{
+				"hotkey": "1",
+				"duration": 22
+			}
+		],
+		"example_recipes" : ["No idea", "And some more", "This one is really long actually"]
+	},
+	"3.5* 70D": {
+		"macros": [
+			{
+				"hotkey": "7",
+				"duration": 39
+			},
+			{
+				"hotkey": "8",
+				"duration": 11
+			}
+		]
+	},
+	"2* 70D": {
+		"macros": [
+			{
+				"hotkey": "t",
+				"duration": 38
+			}
+		]
+	},
+	"4* 70D": {
+		"macros": [
+			{
+				"hotkey": "3",
+				"duration": 40
+			},
+			{
+				"hotkey": "4",
+				"duration": 27
+			}
+		]
+	},
+	"Coffee": {
+		"macros": [
+			{
+				"hotkey": "x",
+				"duration": 24
+			}
+		]
+	},
+	"Spiritbond Pot": {
+		"macros": [
+			{
+				"hotkey": "q",
+				"duration": 17
+			}
+		]
+	},
+	"Syrup": {
+		"macros": [
+			{
+				"hotkey": "g",
+				"duration": 20
+			}
+		]
+	},
+    "Nugget": {
+		"macros": [
+			{
+				"hotkey": "z",
+				"duration": 19
+			}
+		]
+	},
+    "Leather/Thread/Cotton": {
+		"macros": [
+			{
+				"hotkey": "g",
+				"duration": 19
+			}
+		]
+	},
+    "Oil": {
+		"macros": [
+			{
+				"hotkey": "z",
+				"duration": 16
+			}
+		]
+	},
+    "0Test": {
+		"macros": [
+			{
+				"hotkey": "z",
+				"duration": 1
+			}
+		]
+	}
+}
