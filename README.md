@@ -1,6 +1,8 @@
 # FFXIV-Crafting-Helper
 AHK script for automating crafting tasks in FFXIV
 
+![Example Crafting Helper Screenshot](https://user-images.githubusercontent.com/2283362/143943992-7d27c13d-18df-478e-bdbc-7dd46c828ddf.jpg)
+
 ## FFXIV Crafting.ahk
 The main script. Requires AutoHotKey installed. Run the script then press ctrl+f12 to "start" (show UI).
 
