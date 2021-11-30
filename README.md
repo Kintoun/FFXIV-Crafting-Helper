@@ -8,13 +8,21 @@ AHK script for automating crafting tasks in FFXIV
 
 ## Instructions
 Script assumes you've already created your crafting macros in-game and setup crafts.json with the waits and hotkeys.
+
 Strongly recommend using https://ffxivteamcraft.com/ to create your macros/rotations
+
 Script does not handle consumables. Pop those yourself before crafting.
+
 Do not have any other UI open
+
 Do not be close to any interactables in-game
+
 Script relies on Keybind > System > Confirm to be bound to NUM0 (this is the games default)
+
 Click on the recipe in the Crafting Log recipe list to ensure proper UI panel focus. This is the scripts asssumed start point.
+
 FFXIV does not need to be in focus for this script to work.
+
 For multi macro crafts it is recommended to not use your keyboard while the script is running.
 
 ## Functionality
@@ -28,11 +36,12 @@ Run Simulation - Simulates the selected craft for testing. Will popup a message 
 
 Reload Crafts - Reloads the crafts.json file. Useful for changing data without having to reload the script
 
-## FFXIV Crafting.ahk
+## Files
+### FFXIV Crafting.ahk
 The main script.
 
-## crafts.json
-JSON file which contains crafting data
+### crafts.json
+JSON file which contains crafting data.
 
 Example JSON:
 This will add an item to the scripts dropdown named "3.5* 70D". When executed it will press hotkey 7 in FFXIV, wait 39s, then press 8 in FFXIV and wait 11s.
@@ -51,6 +60,9 @@ This will add an item to the scripts dropdown named "3.5* 70D". When executed it
   }
 }
 ```
+
+### JSON.ahk
+lib file required by main script.
 
 ## FAQ/Help
 ### Script seesm to be stuck in HQ UI panel
