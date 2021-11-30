@@ -15,9 +15,13 @@ Click on the recipe in the Crafting Log recipe list to ensure proper UI panel fo
 The main script.
 
 Select the craft from the drop down, insert how many iterations you would like it to run for (0 means run until stopped), and click Craft
+
 Pause - Pauses execution of the script immediately. Click again to unpause
+
 Stop - Returns the script to an idle state after finishing the current craft
+
 Run Simulation - Simulates the selected craft for testing. Will popup a message box with the craft data. Will also output hotkeys to Notepad.exe if it is running instead of the FFXIV client.
+
 Reload Crafts - Reloads the crafts.json file. Useful for changing data without having to reload the script
 
 ## crafts.json
