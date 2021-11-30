@@ -4,7 +4,7 @@ AHK script for automating crafting tasks in FFXIV
 ![Example Crafting Helper Screenshot](https://user-images.githubusercontent.com/2283362/143943992-7d27c13d-18df-478e-bdbc-7dd46c828ddf.jpg)
 
 ## Quick Start
-**Requires AutoHotKey installed. Run 'FFXIV Crafting.ahk' then press Ctrl+F12 to open the script's UI. After selecting options in the script UI, starting a craft requires Crafting Log UI to be open.**
+**Requires AutoHotKey installed. Run 'FFXIV Crafting.ahk' then press Ctrl+F12 to open the script's UI. After selecting options in the script UI, starting a craft requires Crafting Log UI to be open. Click 'Craft'**
 
 ## Instructions
 Script assumes you've already created your crafting macros in-game and setup crafts.json with the waits and hotkeys.
@@ -72,4 +72,4 @@ Make sure the script has window focus in the Crafting Log's recipe list area. Cl
 Make sure your character is not next to any interactables in the world. The script sends 'Confirm' keyboard commands which the game may interpret as interact with nearby interactables.
 
 ### Script seems to be getting stuck during execution
-You're likely using your keyboard/mouse at the same time the script is running. While theoretically this should work fine, in practice FFXIV sometimes misses inputs from the script. Single macro crafts are safe even if FFXIV misses an input and will not get stuck. Multi macro crafts it is recommended to AFK.
+You're likely using your keyboard/mouse at the same time the script is running or your CPU is under heavy load. While theoretically this should work fine, in practice FFXIV sometimes misses inputs from the script. Single macro crafts are safe even if FFXIV misses an input and will not get stuck. Multi macro crafts it is recommended to AFK.
