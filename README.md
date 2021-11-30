@@ -19,17 +19,16 @@ Example JSON:
 This will add an item to the scripts dropdown named "3.5* 70D". When executed it will press hotkey 7 in FFXIV, wait 39s, then press 8 in FFXIV and wait 11s.
 ```
 {
-	"3.5* 70D": {
-		"macros": [
-			{
-				"hotkey": "7",
-				"duration": 39
-			},
-			{
-				"hotkey": "8",
-				"duration": 11
-			}
-		]
-	}
+  "3.5* 70D": {
+    "macros": [
+    {
+      "hotkey": "7",
+      "duration": 39
+    },
+    {
+      "hotkey": "8",
+      "duration": 11
+    }]
+  }
 }
 ```
