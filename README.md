@@ -4,7 +4,7 @@ AHK script for automating crafting tasks in FFXIV
 ![Example Crafting Helper Screenshot](https://user-images.githubusercontent.com/2283362/143943992-7d27c13d-18df-478e-bdbc-7dd46c828ddf.jpg)
 
 ## Quick Start
-**Requires AutoHotKey installed. Run 'FFXIV Crafting.ahk' then press ctrl+f12 to open the script's UI. After selecting options in the script UI, starting a craft requires Crafting Log UI to be open. Pop consumab**
+**Requires AutoHotKey installed. Run 'FFXIV Crafting.ahk' then press Ctrl+F12 to open the script's UI. After selecting options in the script UI, starting a craft requires Crafting Log UI to be open.**
 
 ## Instructions
 Script assumes you've already created your crafting macros in-game and setup crafts.json with the waits and hotkeys.
